@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@1,500&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    background-image: url(https:source.unsplash.com/1600x900/?landscape);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card{
+    background-color: #000000ab;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width:100%;
+    max-width: 400px;
+    height:auto;
+    margin: 1.5em;
+}
+.search-bar{
+    outline: none;
+}
+.search{
+    display: flex;
+    align-items: center;
+    height: 2em;
+    justify-content:center;
+}
+button{
+    margin:.4em;
+    border-radius: 30px;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+    color: white;
+    background: #0000005b;
+}
+.search-bar{
+    border-radius: 30px;
+    width: calc(100% - 80px);
+    height: 2em;
+    border: none;
+    font-family: inherit;
+    background: #0000005b;
+    color: white;
+    padding-left: 1em;
+    font-size: 100%;
+}
+button:hover{
+    background: #7c7c7c2d;
+    transition: .2s ease-in-out;
+}
+.search-bar:hover{
+    background: #7c7c7c2d;
+    transition: .2s ease-in-out;
+}
+.search-bar:focus{
+    background: #7c7c7c2d;
+    transition: .2s ease-in-out;
+}
+h1.temp{
+    margin: 0px;
+}
+.weather{
+    text-transform: uppercase;
+}
+.box{
+    display: flex;
+    align-items: center;
+    gap:.5em;
+}
+/* @media only screen and (max-width: 768px){
+    body{
+        background-image: url(https:source.unsplash.com/768x1253/?landscape);
+    }
+} */
